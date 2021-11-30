@@ -25,15 +25,15 @@ This a bare minimum framework setup of WebdriverIO for QA Recruitment Workshop
    **_Run:_**
     ```
      > cd ~/workspace/
-     > mkdir <wdio_directory_name>
-     > cd <wdio_directory_name>
+     > mkdir <wdio-js_directory_name>
+     > cd <wdio-js_directory_name>
      > git clone https://github.com/tarunmaini16/wdio.git
     ```     
 2. Install all dependencies -
 
    **_Run:_**
     ```
-        > cd ~/workspace/<wdio_directory_name>/wdio
+        > cd ~/workspace/<wdio-js_directory_name>/wdio
         > npm install
      ```       
    **Note**:This will install all dependencies project will be using for executing.
@@ -43,7 +43,7 @@ This a bare minimum framework setup of WebdriverIO for QA Recruitment Workshop
 
    **_Run:_**
     ```
-    > cd ~/workspace/<wdio_directory_name>/wdio
+    > cd ~/workspace/<wdio-js_directory_name>/wdio
     > npx wdio run wdio.conf.js
     ```
     - This will run all tests under wdio directory
